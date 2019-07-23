@@ -1,1 +1,0 @@
-(Get-Wmiobject -class Win32_Environment | Where-Object {$_.Name -eq "SERIALTWO"}).VariableValue
